@@ -1,10 +1,11 @@
 package trie
 
 type (
-	Trie     struct{}
-	Iterator struct{}
+	Trie     struct{} // building a trie struct
+	Iterator struct{} // building an iterator struct
 )
 
+// a new trie
 func New() *Trie {
 	return new(Trie)
 }
