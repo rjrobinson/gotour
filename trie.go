@@ -21,3 +21,5 @@ func (t *Trie) Set(key []byte, value interface{}) bool {
 func (t *Trie) Delete(key []byte) bool {
 	return false
 }
+
+// Tries are fun.
